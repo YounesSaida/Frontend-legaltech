@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { AjoutFicheComponent } from './ajout-fiche/ajout-fiche.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { FicheComponent } from './fiche/fiche.component';
 import { NoteBanqueComponent } from './note-banque/note-banque.component';
@@ -17,7 +15,6 @@ import { NoteHuissierComponent } from './note-huissier/note-huissier.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    AjoutFicheComponent,
     InscriptionComponent,
     FicheComponent,
     NoteBanqueComponent,
